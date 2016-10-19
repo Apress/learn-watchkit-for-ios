@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchNotifications_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="left" text="Label" numberOfLines="0" id="XAd-8D-Dc5"/>
+                    </items>
+                    <connections>
+                        <outlet property="label" destination="XAd-8D-Dc5" id="AtN-wt-J5v"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="243" y="273"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="9zs-36-rjC">
+            <objects>
+                <notificationController contentMode="center" id="NNM-R8-EaS">
+                    <items>
+                        <group width="1" height="80" alignment="left" backgroundImage="CloudAndSun38" contentMode="center" id="tEZ-VK-FXW">
+                            <items>
+                                <label alignment="left" verticalAlignment="bottom" text="Alert Label" numberOfLines="0" id="c5O-qe-uIl">
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                </label>
+                            </items>
+                            <variation key="device=watch42mm" backgroundImage="CloudAndSun42" height="100"/>
+                        </group>
+                    </items>
+                    <notificationCategory key="notificationCategory" wantsSashBlur="YES" id="IY7-fI-Vgx">
+                        <color key="sashColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </notificationCategory>
+                    <color key="backgroundColor" red="0.27450980392156865" green="0.58823529411764708" blue="0.78431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="c5O-qe-uIl" id="7bQ-0O-8CJ"/>
+                        <segue destination="HWO-vc-wr6" kind="relationship" relationship="dynamicNotificationInterface" id="Q9U-1U-iD4"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="243" y="510.5"/>
+        </scene>
+        <!--Basic Actions Notification Controller-->
+        <scene sceneID="0h5-Qv-dwH">
+            <objects>
+                <controller id="HWO-vc-wr6" customClass="BasicActionsNotificationController" customModule="WatchNotifications_WatchKit_Extension">
+                    <items>
+                        <group width="1" height="80" alignment="left" backgroundImage="CloudAndSun38" contentMode="center" layout="vertical" id="OFw-nL-bRc">
+                            <items>
+                                <label alignment="left" text="Alert Label" numberOfLines="0" id="tZe-Eq-DcY">
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                </label>
+                                <label alignment="left" text="Alert Label" numberOfLines="0" id="2jZ-br-LCU">
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                </label>
+                                <label alignment="left" text="Alert Label" numberOfLines="0" id="x8F-tN-Bim">
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                </label>
+                            </items>
+                            <variation key="device=watch42mm" backgroundImage="CloudAndSun42" height="100"/>
+                        </group>
+                    </items>
+                    <color key="backgroundColor" red="0.27450980390000002" green="0.58823529409999997" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="alertBodyLabel" destination="tZe-Eq-DcY" id="Ys5-Tj-TkQ"/>
+                        <outlet property="cityLabel" destination="2jZ-br-LCU" id="X7a-eH-EqS"/>
+                        <outlet property="tempLabel" destination="x8F-tN-Bim" id="7B5-Rk-l5U"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="481" y="511"/>
+        </scene>
+    </scenes>
+</document>

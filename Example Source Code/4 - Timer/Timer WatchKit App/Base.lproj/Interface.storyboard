@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Timer_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <timer width="1" alignment="left" textAlignment="center" numberOfLines="0" id="PQl-j7-dfS"/>
+                        <button width="1" alignment="left" title="Start" id="HDc-Dj-pDU">
+                            <connections>
+                                <action selector="onStart" destination="AgC-eL-Hgc" id="Vro-q6-WLD"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Stop" id="FIi-vr-FJV">
+                            <connections>
+                                <action selector="onStop" destination="AgC-eL-Hgc" id="PvV-Ai-X3f"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Reset" id="6xF-Pw-QLM">
+                            <connections>
+                                <action selector="onReset" destination="AgC-eL-Hgc" id="8qb-Xb-4vS"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="timer" destination="PQl-j7-dfS" id="sbp-jB-uJe"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="690" y="469"/>
+        </scene>
+    </scenes>
+</document>

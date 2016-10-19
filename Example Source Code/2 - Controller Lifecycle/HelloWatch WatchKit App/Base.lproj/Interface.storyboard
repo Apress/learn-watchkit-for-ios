@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6750" systemVersion="14C109" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6735"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Hello-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="Hello" spacing="10" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="HelloWatch_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="center" text="Hello Watch" textAlignment="center" id="1WP-WK-EBA">
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <separator alignment="left" id="RVy-OX-3H2"/>
+                        <imageView height="100" alignment="center" image="SmileyFace" id="wRk-Bf-vpS">
+                            <variation key="device=watch42mm" height="134" image="SmileyFaceLarge"/>
+                        </imageView>
+                    </items>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <edgeInsets key="margins" left="1" right="1" top="8" bottom="0.0"/>
+                    <variation key="default">
+                        <mask key="items">
+                            <exclude reference="RVy-OX-3H2"/>
+                        </mask>
+                    </variation>
+                    <variation key="device=watch42mm" spacing="5">
+                        <edgeInsets key="margins" left="1" right="1" top="4" bottom="0.0"/>
+                        <mask key="items">
+                            <include reference="RVy-OX-3H2"/>
+                        </mask>
+                    </variation>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="228.41025641025644" y="337.82051282051282"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="1" green="0.99885931709999998" blue="0.0020682545409999998" alpha="1" colorSpace="calibratedRGB"/>
+</document>

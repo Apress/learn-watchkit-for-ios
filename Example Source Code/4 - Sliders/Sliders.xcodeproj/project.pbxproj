@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6424FD91AA92C5300D011BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6424FD81AA92C5300D011BF /* AppDelegate.swift */; };
+		B6424FDB1AA92C5300D011BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6424FDA1AA92C5300D011BF /* ViewController.swift */; };
+		B6424FDE1AA92C5300D011BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6424FDC1AA92C5300D011BF /* Main.storyboard */; };
+		B6424FE01AA92C5300D011BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6424FDF1AA92C5300D011BF /* Images.xcassets */; };
+		B6424FE31AA92C5300D011BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6424FE11AA92C5300D011BF /* LaunchScreen.xib */; };
+		B6424FEF1AA92C5300D011BF /* SlidersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6424FEE1AA92C5300D011BF /* SlidersTests.swift */; };
+		B64250011AA92C5E00D011BF /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64250001AA92C5E00D011BF /* InterfaceController.swift */; };
+		B64250031AA92C5E00D011BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B64250021AA92C5E00D011BF /* Images.xcassets */; };
+		B64250071AA92C5E00D011BF /* Sliders WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = B64250061AA92C5E00D011BF /* Sliders WatchKit App.app */; };
+		B642500F1AA92C5E00D011BF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B642500D1AA92C5E00D011BF /* Interface.storyboard */; };
+		B64250111AA92C5E00D011BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B64250101AA92C5E00D011BF /* Images.xcassets */; };
+		B64250141AA92C5E00D011BF /* Sliders WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B6424FFC1AA92C5E00D011BF /* Sliders WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6424FE91AA92C5300D011BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6424FCB1AA92C5200D011BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6424FD21AA92C5200D011BF;
+			remoteInfo = Sliders;
+		};
+		B64250081AA92C5E00D011BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6424FCB1AA92C5200D011BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B64250051AA92C5E00D011BF;
+			remoteInfo = "Sliders WatchKit App";
+		};
+		B64250121AA92C5E00D011BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6424FCB1AA92C5200D011BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6424FFB1AA92C5E00D011BF;
+			remoteInfo = "Sliders WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B642501B1AA92C5E00D011BF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B64250141AA92C5E00D011BF /* Sliders WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B6424FD31AA92C5200D011BF /* Sliders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sliders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6424FD71AA92C5300D011BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6424FD81AA92C5300D011BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6424FDA1AA92C5300D011BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6424FDD1AA92C5300D011BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6424FDF1AA92C5300D011BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B6424FE21AA92C5300D011BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B6424FE81AA92C5300D011BF /* SlidersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlidersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6424FED1AA92C5300D011BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6424FEE1AA92C5300D011BF /* SlidersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidersTests.swift; sourceTree = "<group>"; };
+		B6424FFC1AA92C5E00D011BF /* Sliders WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Sliders WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6424FFF1AA92C5E00D011BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B64250001AA92C5E00D011BF /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		B64250021AA92C5E00D011BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B64250061AA92C5E00D011BF /* Sliders WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sliders WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B642500C1AA92C5E00D011BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B642500E1AA92C5E00D011BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		B64250101AA92C5E00D011BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6424FD01AA92C5200D011BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6424FE51AA92C5300D011BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6424FF91AA92C5E00D011BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6424FCA1AA92C5200D011BF = {
+			isa = PBXGroup;
+			children = (
+				B6424FD51AA92C5200D011BF /* Sliders */,
+				B6424FEB1AA92C5300D011BF /* SlidersTests */,
+				B6424FFD1AA92C5E00D011BF /* Sliders WatchKit Extension */,
+				B642500A1AA92C5E00D011BF /* Sliders WatchKit App */,
+				B6424FD41AA92C5200D011BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6424FD41AA92C5200D011BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6424FD31AA92C5200D011BF /* Sliders.app */,
+				B6424FE81AA92C5300D011BF /* SlidersTests.xctest */,
+				B6424FFC1AA92C5E00D011BF /* Sliders WatchKit Extension.appex */,
+				B64250061AA92C5E00D011BF /* Sliders WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6424FD51AA92C5200D011BF /* Sliders */ = {
+			isa = PBXGroup;
+			children = (
+				B6424FD81AA92C5300D011BF /* AppDelegate.swift */,
+				B6424FDA1AA92C5300D011BF /* ViewController.swift */,
+				B6424FDC1AA92C5300D011BF /* Main.storyboard */,
+				B6424FDF1AA92C5300D011BF /* Images.xcassets */,
+				B6424FE11AA92C5300D011BF /* LaunchScreen.xib */,
+				B6424FD61AA92C5200D011BF /* Supporting Files */,
+			);
+			path = Sliders;
+			sourceTree = "<group>";
+		};
+		B6424FD61AA92C5200D011BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6424FD71AA92C5300D011BF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6424FEB1AA92C5300D011BF /* SlidersTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6424FEE1AA92C5300D011BF /* SlidersTests.swift */,
+				B6424FEC1AA92C5300D011BF /* Supporting Files */,
+			);
+			path = SlidersTests;
+			sourceTree = "<group>";
+		};
+		B6424FEC1AA92C5300D011BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6424FED1AA92C5300D011BF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6424FFD1AA92C5E00D011BF /* Sliders WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B64250001AA92C5E00D011BF /* InterfaceController.swift */,
+				B64250021AA92C5E00D011BF /* Images.xcassets */,
+				B6424FFE1AA92C5E00D011BF /* Supporting Files */,
+			);
+			path = "Sliders WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		B6424FFE1AA92C5E00D011BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6424FFF1AA92C5E00D011BF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B642500A1AA92C5E00D011BF /* Sliders WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				B642500D1AA92C5E00D011BF /* Interface.storyboard */,
+				B64250101AA92C5E00D011BF /* Images.xcassets */,
+				B642500B1AA92C5E00D011BF /* Supporting Files */,
+			);
+			path = "Sliders WatchKit App";
+			sourceTree = "<group>";
+		};
+		B642500B1AA92C5E00D011BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B642500C1AA92C5E00D011BF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6424FD21AA92C5200D011BF /* Sliders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6424FF21AA92C5300D011BF /* Build configuration list for PBXNativeTarget "Sliders" */;
+			buildPhases = (
+				B6424FCF1AA92C5200D011BF /* Sources */,
+				B6424FD01AA92C5200D011BF /* Frameworks */,
+				B6424FD11AA92C5200D011BF /* Resources */,
+				B642501B1AA92C5E00D011BF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B64250131AA92C5E00D011BF /* PBXTargetDependency */,
+			);
+			name = Sliders;
+			productName = Sliders;
+			productReference = B6424FD31AA92C5200D011BF /* Sliders.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6424FE71AA92C5300D011BF /* SlidersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6424FF51AA92C5300D011BF /* Build configuration list for PBXNativeTarget "SlidersTests" */;
+			buildPhases = (
+				B6424FE41AA92C5300D011BF /* Sources */,
+				B6424FE51AA92C5300D011BF /* Frameworks */,
+				B6424FE61AA92C5300D011BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6424FEA1AA92C5300D011BF /* PBXTargetDependency */,
+			);
+			name = SlidersTests;
+			productName = SlidersTests;
+			productReference = B6424FE81AA92C5300D011BF /* SlidersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6424FFB1AA92C5E00D011BF /* Sliders WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B64250181AA92C5E00D011BF /* Build configuration list for PBXNativeTarget "Sliders WatchKit Extension" */;
+			buildPhases = (
+				B6424FF81AA92C5E00D011BF /* Sources */,
+				B6424FF91AA92C5E00D011BF /* Frameworks */,
+				B6424FFA1AA92C5E00D011BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B64250091AA92C5E00D011BF /* PBXTargetDependency */,
+			);
+			name = "Sliders WatchKit Extension";
+			productName = "Sliders WatchKit Extension";
+			productReference = B6424FFC1AA92C5E00D011BF /* Sliders WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		B64250051AA92C5E00D011BF /* Sliders WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B64250151AA92C5E00D011BF /* Build configuration list for PBXNativeTarget "Sliders WatchKit App" */;
+			buildPhases = (
+				B64250041AA92C5E00D011BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sliders WatchKit App";
+			productName = "Sliders WatchKit App";
+			productReference = B64250061AA92C5E00D011BF /* Sliders WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6424FCB1AA92C5200D011BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Apress;
+				TargetAttributes = {
+					B6424FD21AA92C5200D011BF = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B6424FE71AA92C5300D011BF = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = B6424FD21AA92C5200D011BF;
+					};
+					B6424FFB1AA92C5E00D011BF = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B64250051AA92C5E00D011BF = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = B6424FCE1AA92C5200D011BF /* Build configuration list for PBXProject "Sliders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6424FCA1AA92C5200D011BF;
+			productRefGroup = B6424FD41AA92C5200D011BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6424FD21AA92C5200D011BF /* Sliders */,
+				B6424FE71AA92C5300D011BF /* SlidersTests */,
+				B6424FFB1AA92C5E00D011BF /* Sliders WatchKit Extension */,
+				B64250051AA92C5E00D011BF /* Sliders WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6424FD11AA92C5200D011BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6424FDE1AA92C5300D011BF /* Main.storyboard in Resources */,
+				B6424FE31AA92C5300D011BF /* LaunchScreen.xib in Resources */,
+				B6424FE01AA92C5300D011BF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6424FE61AA92C5300D011BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6424FFA1AA92C5E00D011BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64250031AA92C5E00D011BF /* Images.xcassets in Resources */,
+				B64250071AA92C5E00D011BF /* Sliders WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64250041AA92C5E00D011BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B642500F1AA92C5E00D011BF /* Interface.storyboard in Resources */,
+				B64250111AA92C5E00D011BF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6424FCF1AA92C5200D011BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6424FDB1AA92C5300D011BF /* ViewController.swift in Sources */,
+				B6424FD91AA92C5300D011BF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6424FE41AA92C5300D011BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6424FEF1AA92C5300D011BF /* SlidersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6424FF81AA92C5E00D011BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64250011AA92C5E00D011BF /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6424FEA1AA92C5300D011BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6424FD21AA92C5200D011BF /* Sliders */;
+			targetProxy = B6424FE91AA92C5300D011BF /* PBXContainerItemProxy */;
+		};
+		B64250091AA92C5E00D011BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B64250051AA92C5E00D011BF /* Sliders WatchKit App */;
+			targetProxy = B64250081AA92C5E00D011BF /* PBXContainerItemProxy */;
+		};
+		B64250131AA92C5E00D011BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6424FFB1AA92C5E00D011BF /* Sliders WatchKit Extension */;
+			targetProxy = B64250121AA92C5E00D011BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6424FDC1AA92C5300D011BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6424FDD1AA92C5300D011BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6424FE11AA92C5300D011BF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6424FE21AA92C5300D011BF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		B642500D1AA92C5E00D011BF /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B642500E1AA92C5E00D011BF /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6424FF01AA92C5300D011BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6424FF11AA92C5300D011BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6424FF31AA92C5300D011BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Sliders/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6424FF41AA92C5300D011BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Sliders/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B6424FF61AA92C5300D011BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SlidersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sliders.app/Sliders";
+			};
+			name = Debug;
+		};
+		B6424FF71AA92C5300D011BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SlidersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sliders.app/Sliders";
+			};
+			name = Release;
+		};
+		B64250161AA92C5E00D011BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Sliders_WatchKit_Extension;
+				INFOPLIST_FILE = "Sliders WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		B64250171AA92C5E00D011BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Sliders_WatchKit_Extension;
+				INFOPLIST_FILE = "Sliders WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		B64250191AA92C5E00D011BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sliders WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B642501A1AA92C5E00D011BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Sliders WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6424FCE1AA92C5200D011BF /* Build configuration list for PBXProject "Sliders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6424FF01AA92C5300D011BF /* Debug */,
+				B6424FF11AA92C5300D011BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6424FF21AA92C5300D011BF /* Build configuration list for PBXNativeTarget "Sliders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6424FF31AA92C5300D011BF /* Debug */,
+				B6424FF41AA92C5300D011BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B6424FF51AA92C5300D011BF /* Build configuration list for PBXNativeTarget "SlidersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6424FF61AA92C5300D011BF /* Debug */,
+				B6424FF71AA92C5300D011BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B64250151AA92C5E00D011BF /* Build configuration list for PBXNativeTarget "Sliders WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64250161AA92C5E00D011BF /* Debug */,
+				B64250171AA92C5E00D011BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B64250181AA92C5E00D011BF /* Build configuration list for PBXNativeTarget "Sliders WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64250191AA92C5E00D011BF /* Debug */,
+				B642501A1AA92C5E00D011BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6424FCB1AA92C5200D011BF /* Project object */;
+}

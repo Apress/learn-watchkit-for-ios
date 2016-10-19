@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="UpdatingTable_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" id="WBN-q3-DrL">
+                            <items>
+                                <tableRow identifier="Row" selectable="NO" id="uva-bO-Blm" customClass="RowController" customModule="UpdatingTable_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="ap0-hX-hfZ">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="Label" id="S33-7M-vuG"/>
+                                            <button alignment="right" title="Delete" id="19H-rQ-nEV">
+                                                <connections>
+                                                    <action selector="onDeleteButtonClicked" destination="uva-bO-Blm" id="PfC-L9-kfy"/>
+                                                </connections>
+                                            </button>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="label" destination="S33-7M-vuG" id="s50-hI-CHo"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                        <button width="1" alignment="left" title="New Row" id="QP5-d1-MOw">
+                            <connections>
+                                <action selector="onNewRowButtonClicked" destination="AgC-eL-Hgc" id="oSG-MR-5cG"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="WBN-q3-DrL" id="Q00-va-2TH"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="233" y="315"/>
+        </scene>
+    </scenes>
+</document>

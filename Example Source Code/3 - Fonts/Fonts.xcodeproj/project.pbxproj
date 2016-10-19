@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B63F48701A8D872000C48526 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63F486F1A8D872000C48526 /* AppDelegate.swift */; };
+		B63F48721A8D872000C48526 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63F48711A8D872000C48526 /* ViewController.swift */; };
+		B63F48751A8D872000C48526 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B63F48731A8D872000C48526 /* Main.storyboard */; };
+		B63F48771A8D872000C48526 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B63F48761A8D872000C48526 /* Images.xcassets */; };
+		B63F487A1A8D872000C48526 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B63F48781A8D872000C48526 /* LaunchScreen.xib */; };
+		B63F48861A8D872000C48526 /* FontsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63F48851A8D872000C48526 /* FontsTests.swift */; };
+		B63F48981A8D875700C48526 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63F48971A8D875700C48526 /* InterfaceController.swift */; };
+		B63F489A1A8D875700C48526 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B63F48991A8D875700C48526 /* Images.xcassets */; };
+		B63F489E1A8D875800C48526 /* Fonts WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = B63F489D1A8D875800C48526 /* Fonts WatchKit App.app */; };
+		B63F48A61A8D875800C48526 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B63F48A41A8D875800C48526 /* Interface.storyboard */; };
+		B63F48A81A8D875800C48526 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B63F48A71A8D875800C48526 /* Images.xcassets */; };
+		B63F48AB1A8D875800C48526 /* Fonts WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B63F48931A8D875700C48526 /* Fonts WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B63F48B91A94149F00C48526 /* Tangerine_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B63F48B71A94149F00C48526 /* Tangerine_Bold.ttf */; };
+		B63F48BA1A94149F00C48526 /* Tangerine_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B63F48B81A94149F00C48526 /* Tangerine_Regular.ttf */; };
+		B63F48BB1A96C02D00C48526 /* Tangerine_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B63F48B71A94149F00C48526 /* Tangerine_Bold.ttf */; };
+		B63F48BC1A96C02D00C48526 /* Tangerine_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B63F48B81A94149F00C48526 /* Tangerine_Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B63F48801A8D872000C48526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B63F48621A8D872000C48526 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B63F48691A8D872000C48526;
+			remoteInfo = Fonts;
+		};
+		B63F489F1A8D875800C48526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B63F48621A8D872000C48526 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B63F489C1A8D875800C48526;
+			remoteInfo = "Fonts WatchKit App";
+		};
+		B63F48A91A8D875800C48526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B63F48621A8D872000C48526 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B63F48921A8D875700C48526;
+			remoteInfo = "Fonts WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B63F48B21A8D875800C48526 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B63F48AB1A8D875800C48526 /* Fonts WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B63F486A1A8D872000C48526 /* Fonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fonts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63F486E1A8D872000C48526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B63F486F1A8D872000C48526 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B63F48711A8D872000C48526 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B63F48741A8D872000C48526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B63F48761A8D872000C48526 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B63F48791A8D872000C48526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B63F487F1A8D872000C48526 /* FontsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63F48841A8D872000C48526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B63F48851A8D872000C48526 /* FontsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsTests.swift; sourceTree = "<group>"; };
+		B63F48931A8D875700C48526 /* Fonts WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Fonts WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63F48961A8D875700C48526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B63F48971A8D875700C48526 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		B63F48991A8D875700C48526 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B63F489D1A8D875800C48526 /* Fonts WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fonts WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63F48A31A8D875800C48526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B63F48A51A8D875800C48526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		B63F48A71A8D875800C48526 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B63F48B71A94149F00C48526 /* Tangerine_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tangerine_Bold.ttf; sourceTree = "<group>"; };
+		B63F48B81A94149F00C48526 /* Tangerine_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tangerine_Regular.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B63F48671A8D872000C48526 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63F487C1A8D872000C48526 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63F48901A8D875700C48526 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B63F48611A8D872000C48526 = {
+			isa = PBXGroup;
+			children = (
+				B63F486C1A8D872000C48526 /* Fonts */,
+				B63F48821A8D872000C48526 /* FontsTests */,
+				B63F48941A8D875700C48526 /* Fonts WatchKit Extension */,
+				B63F48A11A8D875800C48526 /* Fonts WatchKit App */,
+				B63F486B1A8D872000C48526 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B63F486B1A8D872000C48526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B63F486A1A8D872000C48526 /* Fonts.app */,
+				B63F487F1A8D872000C48526 /* FontsTests.xctest */,
+				B63F48931A8D875700C48526 /* Fonts WatchKit Extension.appex */,
+				B63F489D1A8D875800C48526 /* Fonts WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B63F486C1A8D872000C48526 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B63F486F1A8D872000C48526 /* AppDelegate.swift */,
+				B63F48711A8D872000C48526 /* ViewController.swift */,
+				B63F48731A8D872000C48526 /* Main.storyboard */,
+				B63F48761A8D872000C48526 /* Images.xcassets */,
+				B63F48781A8D872000C48526 /* LaunchScreen.xib */,
+				B63F486D1A8D872000C48526 /* Supporting Files */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B63F486D1A8D872000C48526 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B63F486E1A8D872000C48526 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B63F48821A8D872000C48526 /* FontsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B63F48851A8D872000C48526 /* FontsTests.swift */,
+				B63F48831A8D872000C48526 /* Supporting Files */,
+			);
+			path = FontsTests;
+			sourceTree = "<group>";
+		};
+		B63F48831A8D872000C48526 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B63F48841A8D872000C48526 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B63F48941A8D875700C48526 /* Fonts WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B63F48971A8D875700C48526 /* InterfaceController.swift */,
+				B63F48991A8D875700C48526 /* Images.xcassets */,
+				B63F48951A8D875700C48526 /* Supporting Files */,
+			);
+			path = "Fonts WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		B63F48951A8D875700C48526 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B63F48961A8D875700C48526 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B63F48A11A8D875800C48526 /* Fonts WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				B63F48A41A8D875800C48526 /* Interface.storyboard */,
+				B63F48A71A8D875800C48526 /* Images.xcassets */,
+				B63F48B71A94149F00C48526 /* Tangerine_Bold.ttf */,
+				B63F48B81A94149F00C48526 /* Tangerine_Regular.ttf */,
+				B63F48A21A8D875800C48526 /* Supporting Files */,
+			);
+			path = "Fonts WatchKit App";
+			sourceTree = "<group>";
+		};
+		B63F48A21A8D875800C48526 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B63F48A31A8D875800C48526 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B63F48691A8D872000C48526 /* Fonts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B63F48891A8D872000C48526 /* Build configuration list for PBXNativeTarget "Fonts" */;
+			buildPhases = (
+				B63F48661A8D872000C48526 /* Sources */,
+				B63F48671A8D872000C48526 /* Frameworks */,
+				B63F48681A8D872000C48526 /* Resources */,
+				B63F48B21A8D875800C48526 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B63F48AA1A8D875800C48526 /* PBXTargetDependency */,
+			);
+			name = Fonts;
+			productName = Fonts;
+			productReference = B63F486A1A8D872000C48526 /* Fonts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B63F487E1A8D872000C48526 /* FontsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B63F488C1A8D872000C48526 /* Build configuration list for PBXNativeTarget "FontsTests" */;
+			buildPhases = (
+				B63F487B1A8D872000C48526 /* Sources */,
+				B63F487C1A8D872000C48526 /* Frameworks */,
+				B63F487D1A8D872000C48526 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B63F48811A8D872000C48526 /* PBXTargetDependency */,
+			);
+			name = FontsTests;
+			productName = FontsTests;
+			productReference = B63F487F1A8D872000C48526 /* FontsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B63F48921A8D875700C48526 /* Fonts WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B63F48B11A8D875800C48526 /* Build configuration list for PBXNativeTarget "Fonts WatchKit Extension" */;
+			buildPhases = (
+				B63F488F1A8D875700C48526 /* Sources */,
+				B63F48901A8D875700C48526 /* Frameworks */,
+				B63F48911A8D875700C48526 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B63F48A01A8D875800C48526 /* PBXTargetDependency */,
+			);
+			name = "Fonts WatchKit Extension";
+			productName = "Fonts WatchKit Extension";
+			productReference = B63F48931A8D875700C48526 /* Fonts WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		B63F489C1A8D875800C48526 /* Fonts WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B63F48B01A8D875800C48526 /* Build configuration list for PBXNativeTarget "Fonts WatchKit App" */;
+			buildPhases = (
+				B63F489B1A8D875800C48526 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fonts WatchKit App";
+			productName = "Fonts WatchKit App";
+			productReference = B63F489D1A8D875800C48526 /* Fonts WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B63F48621A8D872000C48526 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Apress;
+				TargetAttributes = {
+					B63F48691A8D872000C48526 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B63F487E1A8D872000C48526 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = B63F48691A8D872000C48526;
+					};
+					B63F48921A8D875700C48526 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B63F489C1A8D875800C48526 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = B63F48651A8D872000C48526 /* Build configuration list for PBXProject "Fonts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B63F48611A8D872000C48526;
+			productRefGroup = B63F486B1A8D872000C48526 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B63F48691A8D872000C48526 /* Fonts */,
+				B63F487E1A8D872000C48526 /* FontsTests */,
+				B63F48921A8D875700C48526 /* Fonts WatchKit Extension */,
+				B63F489C1A8D875800C48526 /* Fonts WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B63F48681A8D872000C48526 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63F48751A8D872000C48526 /* Main.storyboard in Resources */,
+				B63F487A1A8D872000C48526 /* LaunchScreen.xib in Resources */,
+				B63F48771A8D872000C48526 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63F487D1A8D872000C48526 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63F48911A8D875700C48526 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63F489A1A8D875700C48526 /* Images.xcassets in Resources */,
+				B63F48BB1A96C02D00C48526 /* Tangerine_Bold.ttf in Resources */,
+				B63F489E1A8D875800C48526 /* Fonts WatchKit App.app in Resources */,
+				B63F48BC1A96C02D00C48526 /* Tangerine_Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63F489B1A8D875800C48526 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63F48A61A8D875800C48526 /* Interface.storyboard in Resources */,
+				B63F48B91A94149F00C48526 /* Tangerine_Bold.ttf in Resources */,
+				B63F48A81A8D875800C48526 /* Images.xcassets in Resources */,
+				B63F48BA1A94149F00C48526 /* Tangerine_Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B63F48661A8D872000C48526 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63F48721A8D872000C48526 /* ViewController.swift in Sources */,
+				B63F48701A8D872000C48526 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63F487B1A8D872000C48526 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63F48861A8D872000C48526 /* FontsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63F488F1A8D875700C48526 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63F48981A8D875700C48526 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B63F48811A8D872000C48526 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B63F48691A8D872000C48526 /* Fonts */;
+			targetProxy = B63F48801A8D872000C48526 /* PBXContainerItemProxy */;
+		};
+		B63F48A01A8D875800C48526 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B63F489C1A8D875800C48526 /* Fonts WatchKit App */;
+			targetProxy = B63F489F1A8D875800C48526 /* PBXContainerItemProxy */;
+		};
+		B63F48AA1A8D875800C48526 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B63F48921A8D875700C48526 /* Fonts WatchKit Extension */;
+			targetProxy = B63F48A91A8D875800C48526 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B63F48731A8D872000C48526 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B63F48741A8D872000C48526 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B63F48781A8D872000C48526 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B63F48791A8D872000C48526 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		B63F48A41A8D875800C48526 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B63F48A51A8D875800C48526 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B63F48871A8D872000C48526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B63F48881A8D872000C48526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B63F488A1A8D872000C48526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Fonts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B63F488B1A8D872000C48526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Fonts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B63F488D1A8D872000C48526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FontsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fonts.app/Fonts";
+			};
+			name = Debug;
+		};
+		B63F488E1A8D872000C48526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FontsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fonts.app/Fonts";
+			};
+			name = Release;
+		};
+		B63F48AC1A8D875800C48526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Fonts WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B63F48AD1A8D875800C48526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Fonts WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B63F48AE1A8D875800C48526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Fonts_WatchKit_Extension;
+				INFOPLIST_FILE = "Fonts WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		B63F48AF1A8D875800C48526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Fonts_WatchKit_Extension;
+				INFOPLIST_FILE = "Fonts WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B63F48651A8D872000C48526 /* Build configuration list for PBXProject "Fonts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63F48871A8D872000C48526 /* Debug */,
+				B63F48881A8D872000C48526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B63F48891A8D872000C48526 /* Build configuration list for PBXNativeTarget "Fonts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63F488A1A8D872000C48526 /* Debug */,
+				B63F488B1A8D872000C48526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B63F488C1A8D872000C48526 /* Build configuration list for PBXNativeTarget "FontsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63F488D1A8D872000C48526 /* Debug */,
+				B63F488E1A8D872000C48526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B63F48B01A8D875800C48526 /* Build configuration list for PBXNativeTarget "Fonts WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63F48AE1A8D875800C48526 /* Debug */,
+				B63F48AF1A8D875800C48526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B63F48B11A8D875800C48526 /* Build configuration list for PBXNativeTarget "Fonts WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63F48AC1A8D875800C48526 /* Debug */,
+				B63F48AD1A8D875800C48526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B63F48621A8D872000C48526 /* Project object */;
+}

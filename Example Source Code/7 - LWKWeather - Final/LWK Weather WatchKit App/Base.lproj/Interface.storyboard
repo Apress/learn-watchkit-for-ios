@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="LWK_Weather_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" id="jlv-hb-DX7">
+                            <items>
+                                <tableRow identifier="CityTableRowController" id="IWY-oz-JbX" customClass="CityTableRowController" customModule="LWK_Weather_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="QTH-FA-HeW">
+                                        <items>
+                                            <label width="0.55000000000000004" alignment="left" verticalAlignment="center" text="Label" minimumScaleFactor="0.60000000000000009" id="mAr-vL-nxk"/>
+                                            <label alignment="right" verticalAlignment="center" text="82" id="1tN-sl-0N4"/>
+                                            <imageView width="24" height="24" alignment="right" verticalAlignment="center" contentMode="center" id="Yhu-SC-TyY"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="cityLabel" destination="mAr-vL-nxk" id="0lI-in-lBa"/>
+                                        <outlet property="image" destination="Yhu-SC-TyY" id="X28-GP-h52"/>
+                                        <outlet property="temperatureLabel" destination="1tN-sl-0N4" id="v2r-vG-jGa"/>
+                                        <segue destination="2SM-74-BeB" kind="push" id="uf1-e4-0O4"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="jlv-hb-DX7" id="o7O-dt-c8r"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+        <!--Details Interface Controller-->
+        <scene sceneID="cQd-og-NtE">
+            <objects>
+                <controller id="2SM-74-BeB" customClass="DetailsInterfaceController" customModule="LWK_Weather_WatchKit_Extension">
+                    <items>
+                        <label width="1" alignment="left" text="City" textAlignment="center" id="nyP-cS-N52">
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <group width="1" alignment="left" id="jLV-hL-wur">
+                            <items>
+                                <imageView width="0.5" height="24" alignment="left" verticalAlignment="center" contentMode="center" id="dck-rN-3a4"/>
+                                <label width="0.5" alignment="left" verticalAlignment="center" text="82" textAlignment="center" id="BCb-di-328"/>
+                            </items>
+                        </group>
+                        <label width="1" alignment="left" text="Summary" textAlignment="center" id="wdp-ZH-zL4">
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                        <group width="1" alignment="left" layout="vertical" id="GAN-Mm-LiL">
+                            <items>
+                                <separator alignment="left" id="LOx-H5-nEF">
+                                    <color key="color" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </separator>
+                            </items>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                        </group>
+                        <table alignment="left" id="MmH-JT-dKa">
+                            <items>
+                                <tableRow identifier="DateRowController" id="Rxz-Co-Rja" customClass="DateRowController" customModule="LWK_Weather_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" id="kEw-c5-8Dg">
+                                        <items>
+                                            <label alignment="left" text="Date" id="UVX-AF-hYR">
+                                                <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                                            </label>
+                                        </items>
+                                        <color key="backgroundColor" red="0.21568627450980393" green="0.21568627450980393" blue="0.21568627450980393" alpha="1" colorSpace="calibratedRGB"/>
+                                        <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="dateLabel" destination="UVX-AF-hYR" id="pju-gD-7BC"/>
+                                    </connections>
+                                </tableRow>
+                                <tableRow identifier="DetailsRowController" id="cMa-5G-RX8" customClass="DetailsRowController" customModule="LWK_Weather_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" id="IuV-6v-DUW">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="Label" id="e22-Lv-Sbw">
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            </label>
+                                            <label alignment="right" verticalAlignment="center" text="Label" id="5ZW-Z7-DJj">
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            </label>
+                                            <imageView width="24" height="24" alignment="right" verticalAlignment="center" contentMode="center" id="4lK-Qp-rHl"/>
+                                        </items>
+                                        <edgeInsets key="margins" left="4" right="2" top="0.0" bottom="0.0"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="image" destination="4lK-Qp-rHl" id="DNz-eD-D01"/>
+                                        <outlet property="tempLabel" destination="5ZW-Z7-DJj" id="3lC-5u-NKJ"/>
+                                        <outlet property="timeLabel" destination="e22-Lv-Sbw" id="zE1-vB-4tf"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="cityNameLabel" destination="nyP-cS-N52" id="FuA-ch-Hox"/>
+                        <outlet property="image" destination="dck-rN-3a4" id="aKA-CD-i5X"/>
+                        <outlet property="summaryLabel" destination="wdp-ZH-zL4" id="fCn-sd-8n6"/>
+                        <outlet property="table" destination="MmH-JT-dKa" id="jwc-f9-Zmb"/>
+                        <outlet property="tempLabel" destination="BCb-di-328" id="NKe-4J-BHk"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="391" y="268"/>
+        </scene>
+    </scenes>
+</document>

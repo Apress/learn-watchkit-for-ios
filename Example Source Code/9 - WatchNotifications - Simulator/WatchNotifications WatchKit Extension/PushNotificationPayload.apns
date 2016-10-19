@@ -1,0 +1,28 @@
+{
+    "aps": {
+        "alert": {
+            "body": "It's Sunny!",
+            "title": "Optional title"
+        },
+        "category": "BasicActions"
+    },
+    
+    "WatchKit Simulator Actions": [
+        {
+            "title": "Action 1",
+            "identifier": "ACTION1"
+        },
+        {
+             "title": "Action 2",
+             "identifier": "ACTION2"
+        },
+        {
+             "title": "Action 3",
+             "identifier": "ACTION3"
+        }
+    ],
+    
+    "cityLabel": "New York",
+    "tempLabel": "82"
+}
+

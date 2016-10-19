@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="HierarchicalNavigation_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <button width="1" alignment="left" title="Image 1" id="Ong-Uz-Ugs">
+                            <connections>
+                                <action selector="onImage1ButtonClicked" destination="AgC-eL-Hgc" id="tbe-di-UFt"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Image 2" id="QHj-9C-SRD">
+                            <connections>
+                                <action selector="onImage2ButtonClicked" destination="AgC-eL-Hgc" id="gZW-42-eeI"/>
+                            </connections>
+                        </button>
+                        <label width="1" alignment="left" verticalAlignment="bottom" text="Press a Button" textAlignment="center" numberOfLines="0" id="bjm-jo-n4c"/>
+                    </items>
+                    <edgeInsets key="margins" left="1" right="1" top="0.0" bottom="8"/>
+                    <connections>
+                        <outlet property="label" destination="bjm-jo-n4c" id="dAc-t4-4aC"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+        <!--ImageController-->
+        <scene sceneID="B5D-Hc-Tgf">
+            <objects>
+                <controller identifier="ImageController" id="6Rn-Ue-dLa" customClass="ImageController" customModule="HierarchicalNavigation_WatchKit_Extension">
+                    <items>
+                        <imageView width="1" height="109" alignment="left" contentMode="scaleAspectFit" id="aiC-tz-kDw">
+                            <variation key="device=watch42mm" height="132"/>
+                        </imageView>
+                        <group width="1" alignment="left" verticalAlignment="bottom" id="xQO-hV-0HO">
+                            <items>
+                                <button width="0.5" alignment="left" title="Like" id="v0U-t5-Hx9">
+                                    <connections>
+                                        <action selector="onLikeButtonClicked" destination="6Rn-Ue-dLa" id="Wb1-Vf-1HZ"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" alignment="left" title="Dislike" id="eCL-UM-0xd">
+                                    <connections>
+                                        <action selector="onDislikeButtonClicked" destination="6Rn-Ue-dLa" id="6xf-06-ovh"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="image" destination="aiC-tz-kDw" id="Kd6-t0-9nI"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="352" y="252"/>
+        </scene>
+    </scenes>
+</document>

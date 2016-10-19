@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B61CA1F61A9D52E100F541BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61CA1F51A9D52E100F541BD /* AppDelegate.swift */; };
+		B61CA1F81A9D52E100F541BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61CA1F71A9D52E100F541BD /* ViewController.swift */; };
+		B61CA1FB1A9D52E100F541BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61CA1F91A9D52E100F541BD /* Main.storyboard */; };
+		B61CA1FD1A9D52E100F541BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B61CA1FC1A9D52E100F541BD /* Images.xcassets */; };
+		B61CA2001A9D52E100F541BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B61CA1FE1A9D52E100F541BD /* LaunchScreen.xib */; };
+		B61CA20C1A9D52E100F541BD /* ImageUploadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61CA20B1A9D52E100F541BD /* ImageUploadTests.swift */; };
+		B61CA21E1A9D52FC00F541BD /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61CA21D1A9D52FC00F541BD /* InterfaceController.swift */; };
+		B61CA2201A9D52FC00F541BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B61CA21F1A9D52FC00F541BD /* Images.xcassets */; };
+		B61CA2241A9D52FC00F541BD /* ImageUpload WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = B61CA2231A9D52FC00F541BD /* ImageUpload WatchKit App.app */; };
+		B61CA22C1A9D52FC00F541BD /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61CA22A1A9D52FC00F541BD /* Interface.storyboard */; };
+		B61CA22E1A9D52FC00F541BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B61CA22D1A9D52FC00F541BD /* Images.xcassets */; };
+		B61CA2311A9D52FC00F541BD /* ImageUpload WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B61CA2191A9D52FC00F541BD /* ImageUpload WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B61CA23A1A9D5D1300F541BD /* SmallSun@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61CA2391A9D5D1300F541BD /* SmallSun@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B61CA2061A9D52E100F541BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B61CA1E81A9D52E100F541BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B61CA1EF1A9D52E100F541BD;
+			remoteInfo = ImageUpload;
+		};
+		B61CA2251A9D52FC00F541BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B61CA1E81A9D52E100F541BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B61CA2221A9D52FC00F541BD;
+			remoteInfo = "ImageUpload WatchKit App";
+		};
+		B61CA22F1A9D52FC00F541BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B61CA1E81A9D52E100F541BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B61CA2181A9D52FC00F541BD;
+			remoteInfo = "ImageUpload WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B61CA2381A9D52FC00F541BD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B61CA2311A9D52FC00F541BD /* ImageUpload WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B61CA1F01A9D52E100F541BD /* ImageUpload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageUpload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61CA1F41A9D52E100F541BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B61CA1F51A9D52E100F541BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B61CA1F71A9D52E100F541BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B61CA1FA1A9D52E100F541BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B61CA1FC1A9D52E100F541BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B61CA1FF1A9D52E100F541BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B61CA2051A9D52E100F541BD /* ImageUploadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageUploadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61CA20A1A9D52E100F541BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B61CA20B1A9D52E100F541BD /* ImageUploadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploadTests.swift; sourceTree = "<group>"; };
+		B61CA2191A9D52FC00F541BD /* ImageUpload WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ImageUpload WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61CA21C1A9D52FC00F541BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B61CA21D1A9D52FC00F541BD /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		B61CA21F1A9D52FC00F541BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B61CA2231A9D52FC00F541BD /* ImageUpload WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ImageUpload WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61CA2291A9D52FC00F541BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B61CA22B1A9D52FC00F541BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		B61CA22D1A9D52FC00F541BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B61CA2391A9D5D1300F541BD /* SmallSun@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SmallSun@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B61CA1ED1A9D52E100F541BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61CA2021A9D52E100F541BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61CA2161A9D52FC00F541BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B61CA1E71A9D52E100F541BD = {
+			isa = PBXGroup;
+			children = (
+				B61CA1F21A9D52E100F541BD /* ImageUpload */,
+				B61CA2081A9D52E100F541BD /* ImageUploadTests */,
+				B61CA21A1A9D52FC00F541BD /* ImageUpload WatchKit Extension */,
+				B61CA2271A9D52FC00F541BD /* ImageUpload WatchKit App */,
+				B61CA1F11A9D52E100F541BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B61CA1F11A9D52E100F541BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B61CA1F01A9D52E100F541BD /* ImageUpload.app */,
+				B61CA2051A9D52E100F541BD /* ImageUploadTests.xctest */,
+				B61CA2191A9D52FC00F541BD /* ImageUpload WatchKit Extension.appex */,
+				B61CA2231A9D52FC00F541BD /* ImageUpload WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B61CA1F21A9D52E100F541BD /* ImageUpload */ = {
+			isa = PBXGroup;
+			children = (
+				B61CA1F51A9D52E100F541BD /* AppDelegate.swift */,
+				B61CA1F71A9D52E100F541BD /* ViewController.swift */,
+				B61CA1F91A9D52E100F541BD /* Main.storyboard */,
+				B61CA1FC1A9D52E100F541BD /* Images.xcassets */,
+				B61CA1FE1A9D52E100F541BD /* LaunchScreen.xib */,
+				B61CA1F31A9D52E100F541BD /* Supporting Files */,
+			);
+			path = ImageUpload;
+			sourceTree = "<group>";
+		};
+		B61CA1F31A9D52E100F541BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B61CA1F41A9D52E100F541BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B61CA2081A9D52E100F541BD /* ImageUploadTests */ = {
+			isa = PBXGroup;
+			children = (
+				B61CA20B1A9D52E100F541BD /* ImageUploadTests.swift */,
+				B61CA2091A9D52E100F541BD /* Supporting Files */,
+			);
+			path = ImageUploadTests;
+			sourceTree = "<group>";
+		};
+		B61CA2091A9D52E100F541BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B61CA20A1A9D52E100F541BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B61CA21A1A9D52FC00F541BD /* ImageUpload WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B61CA21D1A9D52FC00F541BD /* InterfaceController.swift */,
+				B61CA2391A9D5D1300F541BD /* SmallSun@2x.png */,
+				B61CA21F1A9D52FC00F541BD /* Images.xcassets */,
+				B61CA21B1A9D52FC00F541BD /* Supporting Files */,
+			);
+			path = "ImageUpload WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		B61CA21B1A9D52FC00F541BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B61CA21C1A9D52FC00F541BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B61CA2271A9D52FC00F541BD /* ImageUpload WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				B61CA22A1A9D52FC00F541BD /* Interface.storyboard */,
+				B61CA22D1A9D52FC00F541BD /* Images.xcassets */,
+				B61CA2281A9D52FC00F541BD /* Supporting Files */,
+			);
+			path = "ImageUpload WatchKit App";
+			sourceTree = "<group>";
+		};
+		B61CA2281A9D52FC00F541BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B61CA2291A9D52FC00F541BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B61CA1EF1A9D52E100F541BD /* ImageUpload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B61CA20F1A9D52E100F541BD /* Build configuration list for PBXNativeTarget "ImageUpload" */;
+			buildPhases = (
+				B61CA1EC1A9D52E100F541BD /* Sources */,
+				B61CA1ED1A9D52E100F541BD /* Frameworks */,
+				B61CA1EE1A9D52E100F541BD /* Resources */,
+				B61CA2381A9D52FC00F541BD /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B61CA2301A9D52FC00F541BD /* PBXTargetDependency */,
+			);
+			name = ImageUpload;
+			productName = ImageUpload;
+			productReference = B61CA1F01A9D52E100F541BD /* ImageUpload.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B61CA2041A9D52E100F541BD /* ImageUploadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B61CA2121A9D52E100F541BD /* Build configuration list for PBXNativeTarget "ImageUploadTests" */;
+			buildPhases = (
+				B61CA2011A9D52E100F541BD /* Sources */,
+				B61CA2021A9D52E100F541BD /* Frameworks */,
+				B61CA2031A9D52E100F541BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B61CA2071A9D52E100F541BD /* PBXTargetDependency */,
+			);
+			name = ImageUploadTests;
+			productName = ImageUploadTests;
+			productReference = B61CA2051A9D52E100F541BD /* ImageUploadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B61CA2181A9D52FC00F541BD /* ImageUpload WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B61CA2371A9D52FC00F541BD /* Build configuration list for PBXNativeTarget "ImageUpload WatchKit Extension" */;
+			buildPhases = (
+				B61CA2151A9D52FC00F541BD /* Sources */,
+				B61CA2161A9D52FC00F541BD /* Frameworks */,
+				B61CA2171A9D52FC00F541BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B61CA2261A9D52FC00F541BD /* PBXTargetDependency */,
+			);
+			name = "ImageUpload WatchKit Extension";
+			productName = "ImageUpload WatchKit Extension";
+			productReference = B61CA2191A9D52FC00F541BD /* ImageUpload WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		B61CA2221A9D52FC00F541BD /* ImageUpload WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B61CA2361A9D52FC00F541BD /* Build configuration list for PBXNativeTarget "ImageUpload WatchKit App" */;
+			buildPhases = (
+				B61CA2211A9D52FC00F541BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ImageUpload WatchKit App";
+			productName = "ImageUpload WatchKit App";
+			productReference = B61CA2231A9D52FC00F541BD /* ImageUpload WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B61CA1E81A9D52E100F541BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Apress;
+				TargetAttributes = {
+					B61CA1EF1A9D52E100F541BD = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B61CA2041A9D52E100F541BD = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = B61CA1EF1A9D52E100F541BD;
+					};
+					B61CA2181A9D52FC00F541BD = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B61CA2221A9D52FC00F541BD = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = B61CA1EB1A9D52E100F541BD /* Build configuration list for PBXProject "ImageUpload" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B61CA1E71A9D52E100F541BD;
+			productRefGroup = B61CA1F11A9D52E100F541BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B61CA1EF1A9D52E100F541BD /* ImageUpload */,
+				B61CA2041A9D52E100F541BD /* ImageUploadTests */,
+				B61CA2181A9D52FC00F541BD /* ImageUpload WatchKit Extension */,
+				B61CA2221A9D52FC00F541BD /* ImageUpload WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B61CA1EE1A9D52E100F541BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61CA1FB1A9D52E100F541BD /* Main.storyboard in Resources */,
+				B61CA2001A9D52E100F541BD /* LaunchScreen.xib in Resources */,
+				B61CA1FD1A9D52E100F541BD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61CA2031A9D52E100F541BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61CA2171A9D52FC00F541BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61CA2201A9D52FC00F541BD /* Images.xcassets in Resources */,
+				B61CA2241A9D52FC00F541BD /* ImageUpload WatchKit App.app in Resources */,
+				B61CA23A1A9D5D1300F541BD /* SmallSun@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61CA2211A9D52FC00F541BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61CA22C1A9D52FC00F541BD /* Interface.storyboard in Resources */,
+				B61CA22E1A9D52FC00F541BD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B61CA1EC1A9D52E100F541BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61CA1F81A9D52E100F541BD /* ViewController.swift in Sources */,
+				B61CA1F61A9D52E100F541BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61CA2011A9D52E100F541BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61CA20C1A9D52E100F541BD /* ImageUploadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61CA2151A9D52FC00F541BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61CA21E1A9D52FC00F541BD /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B61CA2071A9D52E100F541BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B61CA1EF1A9D52E100F541BD /* ImageUpload */;
+			targetProxy = B61CA2061A9D52E100F541BD /* PBXContainerItemProxy */;
+		};
+		B61CA2261A9D52FC00F541BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B61CA2221A9D52FC00F541BD /* ImageUpload WatchKit App */;
+			targetProxy = B61CA2251A9D52FC00F541BD /* PBXContainerItemProxy */;
+		};
+		B61CA2301A9D52FC00F541BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B61CA2181A9D52FC00F541BD /* ImageUpload WatchKit Extension */;
+			targetProxy = B61CA22F1A9D52FC00F541BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B61CA1F91A9D52E100F541BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B61CA1FA1A9D52E100F541BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B61CA1FE1A9D52E100F541BD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B61CA1FF1A9D52E100F541BD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		B61CA22A1A9D52FC00F541BD /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B61CA22B1A9D52FC00F541BD /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B61CA20D1A9D52E100F541BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B61CA20E1A9D52E100F541BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B61CA2101A9D52E100F541BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = ImageUpload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B61CA2111A9D52E100F541BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = ImageUpload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B61CA2131A9D52E100F541BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ImageUploadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageUpload.app/ImageUpload";
+			};
+			name = Debug;
+		};
+		B61CA2141A9D52E100F541BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ImageUploadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageUpload.app/ImageUpload";
+			};
+			name = Release;
+		};
+		B61CA2321A9D52FC00F541BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ImageUpload WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B61CA2331A9D52FC00F541BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ImageUpload WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B61CA2341A9D52FC00F541BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = ImageUpload_WatchKit_Extension;
+				INFOPLIST_FILE = "ImageUpload WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		B61CA2351A9D52FC00F541BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = ImageUpload_WatchKit_Extension;
+				INFOPLIST_FILE = "ImageUpload WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B61CA1EB1A9D52E100F541BD /* Build configuration list for PBXProject "ImageUpload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61CA20D1A9D52E100F541BD /* Debug */,
+				B61CA20E1A9D52E100F541BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B61CA20F1A9D52E100F541BD /* Build configuration list for PBXNativeTarget "ImageUpload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61CA2101A9D52E100F541BD /* Debug */,
+				B61CA2111A9D52E100F541BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B61CA2121A9D52E100F541BD /* Build configuration list for PBXNativeTarget "ImageUploadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61CA2131A9D52E100F541BD /* Debug */,
+				B61CA2141A9D52E100F541BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B61CA2361A9D52FC00F541BD /* Build configuration list for PBXNativeTarget "ImageUpload WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61CA2341A9D52FC00F541BD /* Debug */,
+				B61CA2351A9D52FC00F541BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B61CA2371A9D52FC00F541BD /* Build configuration list for PBXNativeTarget "ImageUpload WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61CA2321A9D52FC00F541BD /* Debug */,
+				B61CA2331A9D52FC00F541BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B61CA1E81A9D52E100F541BD /* Project object */;
+}

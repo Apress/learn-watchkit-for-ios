@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>code</key>
+		<real>5128581</real>
+		<key>name</key>
+		<string>New York</string>
+		<key>tz</key>
+		<string>America/New_York</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<integer>4887398</integer>
+		<key>name</key>
+		<string>Chicago</string>
+		<key>tz</key>
+		<string>America/Chicago</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<integer>5391959</integer>
+		<key>name</key>
+		<string>San Francisco</string>
+		<key>tz</key>
+		<string>America/Los_Angeles</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<integer>5368361</integer>
+		<key>name</key>
+		<string>Los Angeles</string>
+		<key>tz</key>
+		<string>America/Los_Angeles</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<integer>4930956</integer>
+		<key>name</key>
+		<string>Boston</string>
+		<key>tz</key>
+		<string>America/New_York</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<integer>4880731</integer>
+		<key>name</key>
+		<string>Washington DC</string>
+		<key>tz</key>
+		<string>America/New_York</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<integer>3374036</integer>
+		<key>name</key>
+		<string>Bridgetown, Barbados</string>
+		<key>tz</key>
+		<string>America/Barbados</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<integer>2643741</integer>
+		<key>name</key>
+		<string>London</string>
+		<key>tz</key>
+		<string>Europe/London</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<integer>2988507</integer>
+		<key>name</key>
+		<string>Paris</string>
+		<key>tz</key>
+		<string>Europe/Paris</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<integer>3117735</integer>
+		<key>name</key>
+		<string>Madrid</string>
+		<key>tz</key>
+		<string>Europe/Madrid</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<integer>524901</integer>
+		<key>name</key>
+		<string>Moscow</string>
+		<key>tz</key>
+		<string>Europe/Moscow</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<real>2673730</real>
+		<key>name</key>
+		<string>Stockholm</string>
+		<key>tz</key>
+		<string>Europe/Stockholm</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<real>2147714</real>
+		<key>name</key>
+		<string>Sydney</string>
+		<key>tz</key>
+		<string>Australia/Sydney</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<integer>1819729</integer>
+		<key>name</key>
+		<string>Hong Kong</string>
+		<key>tz</key>
+		<string>Asia/Hong_Kong</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<integer>2964574</integer>
+		<key>name</key>
+		<string>Dublin</string>
+		<key>tz</key>
+		<string>Europe/Dublin</string>
+	</dict>
+</array>
+</plist>

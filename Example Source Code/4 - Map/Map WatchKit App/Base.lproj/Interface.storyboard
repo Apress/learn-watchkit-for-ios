@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Map_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <map height="109" alignment="left" id="J1D-go-pQz">
+                            <variation key="device=watch42mm" height="128"/>
+                        </map>
+                        <slider width="1" alignment="left" verticalAlignment="bottom" continuous="YES" maximum="10" steps="10" id="pPf-Sa-pEn">
+                            <connections>
+                                <action selector="onSliderValueChanged:" destination="AgC-eL-Hgc" id="nMV-EU-AfS"/>
+                            </connections>
+                        </slider>
+                    </items>
+                    <connections>
+                        <outlet property="map" destination="J1D-go-pQz" id="Ye0-jw-wH7"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="435.02564102564105" y="493.43589743589746"/>
+        </scene>
+    </scenes>
+</document>

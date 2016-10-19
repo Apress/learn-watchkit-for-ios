@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--MainController-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="MainController" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="DynamicPageNavigation_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="1" alignment="left" text="Swipe to Begin" textAlignment="center" numberOfLines="0" id="K50-Pl-GFt">
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <label width="1" alignment="left" verticalAlignment="center" textAlignment="center" numberOfLines="0" id="ge0-x7-QSh"/>
+                    </items>
+                    <connections>
+                        <outlet property="startLabel" destination="K50-Pl-GFt" id="Jfg-0G-w2B"/>
+                        <outlet property="summaryLabel" destination="ge0-x7-QSh" id="Nq7-WB-kNB"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="137" y="374"/>
+        </scene>
+        <!--ImageController-->
+        <scene sceneID="KHB-Hh-A6J">
+            <objects>
+                <controller identifier="ImageController" id="c4u-Hc-9fi" customClass="ImageController" customModule="DynamicPageNavigation_WatchKit_Extension">
+                    <items>
+                        <imageView width="1" height="109" alignment="left" contentMode="scaleAspectFit" id="NJe-s8-rhj">
+                            <variation key="device=watch42mm" height="131"/>
+                        </imageView>
+                        <group width="1" alignment="left" verticalAlignment="bottom" id="cn9-Fw-9ql">
+                            <items>
+                                <button width="0.5" alignment="left" title="Like" id="3b4-pH-rsb">
+                                    <connections>
+                                        <action selector="onLikeButtonClicked" destination="c4u-Hc-9fi" id="v96-iF-iAa"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" alignment="left" title="Dislike" id="sz9-6v-Uf8">
+                                    <connections>
+                                        <action selector="onDislikeButtonClicked" destination="c4u-Hc-9fi" id="m0Y-gi-uA6"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="image" destination="NJe-s8-rhj" id="4o5-cA-18x"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="352.20512820512823" y="374.43589743589746"/>
+        </scene>
+    </scenes>
+</document>

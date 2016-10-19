@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Configuration_Table_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="1" alignment="left" text="Label" textAlignment="center" numberOfLines="0" id="utB-6E-70s"/>
+                    </items>
+                    <menu key="menu" id="Wey-U2-zeH">
+                        <items>
+                            <menuItem title="Configure" icon="more" id="DXH-ho-z22">
+                                <connections>
+                                    <action selector="onConfigureClicked" destination="AgC-eL-Hgc" id="dgn-qi-py9"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Reset" icon="repeat" id="pCr-vW-Gld">
+                                <connections>
+                                    <action selector="onResetClicked" destination="AgC-eL-Hgc" id="Zy8-g4-79H"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="label" destination="utB-6E-70s" id="imk-nk-QPE"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="240" y="312"/>
+        </scene>
+        <!--Configuration-->
+        <scene sceneID="0Lw-uu-ZTa">
+            <objects>
+                <controller identifier="Configuration" id="a0r-hm-1hk" customClass="ConfigurationController" customModule="Configuration_Table_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="G3w-s6-lJ6">
+                            <items>
+                                <tableRow identifier="Header" selectable="NO" id="ZLa-FC-LoL" customClass="HeaderRowController" customModule="Configuration_Table_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="24" alignment="left" id="X9K-Dd-M6d">
+                                        <items>
+                                            <label width="1" alignment="left" verticalAlignment="center" text="Label" textAlignment="center" id="uZL-l6-Dhh"/>
+                                        </items>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="label" destination="uZL-l6-Dhh" id="JoK-Tp-dpY"/>
+                                    </connections>
+                                </tableRow>
+                                <tableRow identifier="Body" id="IJn-cL-M9i" customClass="BodyRowController" customModule="Configuration_Table_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="xfP-h3-lhu">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="Label" id="U8c-Dt-Zz9"/>
+                                            <imageView alignment="right" verticalAlignment="center" image="CheckMark" contentMode="center" id="L5e-tE-YRd"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="checkImage" destination="L5e-tE-YRd" id="WIq-dI-ipR"/>
+                                        <outlet property="label" destination="U8c-Dt-Zz9" id="bpK-Jq-50Z"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                        <separator alignment="left" id="ZCJ-B0-vDC"/>
+                        <button width="1" alignment="left" title="Save" id="2QC-iQ-H98">
+                            <connections>
+                                <action selector="onSaveButtonClicked" destination="a0r-hm-1hk" id="Bdf-Fg-TuW"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="G3w-s6-lJ6" id="gK6-X3-5eJ"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="240" y="577"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6C9D2491AABA23E003AD39B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C9D2481AABA23E003AD39B /* AppDelegate.swift */; };
+		B6C9D24B1AABA23E003AD39B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C9D24A1AABA23E003AD39B /* ViewController.swift */; };
+		B6C9D24E1AABA23E003AD39B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C9D24C1AABA23E003AD39B /* Main.storyboard */; };
+		B6C9D2501AABA23E003AD39B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C9D24F1AABA23E003AD39B /* Images.xcassets */; };
+		B6C9D2531AABA23E003AD39B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C9D2511AABA23E003AD39B /* LaunchScreen.xib */; };
+		B6C9D25F1AABA23E003AD39B /* DateDisplayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C9D25E1AABA23E003AD39B /* DateDisplayTests.swift */; };
+		B6C9D2711AABA253003AD39B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C9D2701AABA253003AD39B /* InterfaceController.swift */; };
+		B6C9D2731AABA253003AD39B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C9D2721AABA253003AD39B /* Images.xcassets */; };
+		B6C9D2771AABA253003AD39B /* DateDisplay WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = B6C9D2761AABA253003AD39B /* DateDisplay WatchKit App.app */; };
+		B6C9D27F1AABA253003AD39B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C9D27D1AABA253003AD39B /* Interface.storyboard */; };
+		B6C9D2811AABA253003AD39B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C9D2801AABA253003AD39B /* Images.xcassets */; };
+		B6C9D2841AABA253003AD39B /* DateDisplay WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B6C9D26C1AABA253003AD39B /* DateDisplay WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6C9D2591AABA23E003AD39B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6C9D23B1AABA23E003AD39B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6C9D2421AABA23E003AD39B;
+			remoteInfo = DateDisplay;
+		};
+		B6C9D2781AABA253003AD39B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6C9D23B1AABA23E003AD39B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6C9D2751AABA253003AD39B;
+			remoteInfo = "DateDisplay WatchKit App";
+		};
+		B6C9D2821AABA253003AD39B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6C9D23B1AABA23E003AD39B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6C9D26B1AABA253003AD39B;
+			remoteInfo = "DateDisplay WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B6C9D28B1AABA253003AD39B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B6C9D2841AABA253003AD39B /* DateDisplay WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B6C9D2431AABA23E003AD39B /* DateDisplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateDisplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C9D2471AABA23E003AD39B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6C9D2481AABA23E003AD39B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6C9D24A1AABA23E003AD39B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6C9D24D1AABA23E003AD39B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6C9D24F1AABA23E003AD39B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B6C9D2521AABA23E003AD39B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B6C9D2581AABA23E003AD39B /* DateDisplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateDisplayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C9D25D1AABA23E003AD39B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6C9D25E1AABA23E003AD39B /* DateDisplayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateDisplayTests.swift; sourceTree = "<group>"; };
+		B6C9D26C1AABA253003AD39B /* DateDisplay WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DateDisplay WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C9D26F1AABA253003AD39B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6C9D2701AABA253003AD39B /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		B6C9D2721AABA253003AD39B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B6C9D2761AABA253003AD39B /* DateDisplay WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DateDisplay WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C9D27C1AABA253003AD39B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6C9D27E1AABA253003AD39B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		B6C9D2801AABA253003AD39B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6C9D2401AABA23E003AD39B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C9D2551AABA23E003AD39B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C9D2691AABA253003AD39B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6C9D23A1AABA23E003AD39B = {
+			isa = PBXGroup;
+			children = (
+				B6C9D2451AABA23E003AD39B /* DateDisplay */,
+				B6C9D25B1AABA23E003AD39B /* DateDisplayTests */,
+				B6C9D26D1AABA253003AD39B /* DateDisplay WatchKit Extension */,
+				B6C9D27A1AABA253003AD39B /* DateDisplay WatchKit App */,
+				B6C9D2441AABA23E003AD39B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6C9D2441AABA23E003AD39B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6C9D2431AABA23E003AD39B /* DateDisplay.app */,
+				B6C9D2581AABA23E003AD39B /* DateDisplayTests.xctest */,
+				B6C9D26C1AABA253003AD39B /* DateDisplay WatchKit Extension.appex */,
+				B6C9D2761AABA253003AD39B /* DateDisplay WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6C9D2451AABA23E003AD39B /* DateDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				B6C9D2481AABA23E003AD39B /* AppDelegate.swift */,
+				B6C9D24A1AABA23E003AD39B /* ViewController.swift */,
+				B6C9D24C1AABA23E003AD39B /* Main.storyboard */,
+				B6C9D24F1AABA23E003AD39B /* Images.xcassets */,
+				B6C9D2511AABA23E003AD39B /* LaunchScreen.xib */,
+				B6C9D2461AABA23E003AD39B /* Supporting Files */,
+			);
+			path = DateDisplay;
+			sourceTree = "<group>";
+		};
+		B6C9D2461AABA23E003AD39B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6C9D2471AABA23E003AD39B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6C9D25B1AABA23E003AD39B /* DateDisplayTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6C9D25E1AABA23E003AD39B /* DateDisplayTests.swift */,
+				B6C9D25C1AABA23E003AD39B /* Supporting Files */,
+			);
+			path = DateDisplayTests;
+			sourceTree = "<group>";
+		};
+		B6C9D25C1AABA23E003AD39B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6C9D25D1AABA23E003AD39B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6C9D26D1AABA253003AD39B /* DateDisplay WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B6C9D2701AABA253003AD39B /* InterfaceController.swift */,
+				B6C9D2721AABA253003AD39B /* Images.xcassets */,
+				B6C9D26E1AABA253003AD39B /* Supporting Files */,
+			);
+			path = "DateDisplay WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		B6C9D26E1AABA253003AD39B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6C9D26F1AABA253003AD39B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6C9D27A1AABA253003AD39B /* DateDisplay WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				B6C9D27D1AABA253003AD39B /* Interface.storyboard */,
+				B6C9D2801AABA253003AD39B /* Images.xcassets */,
+				B6C9D27B1AABA253003AD39B /* Supporting Files */,
+			);
+			path = "DateDisplay WatchKit App";
+			sourceTree = "<group>";
+		};
+		B6C9D27B1AABA253003AD39B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6C9D27C1AABA253003AD39B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6C9D2421AABA23E003AD39B /* DateDisplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6C9D2621AABA23E003AD39B /* Build configuration list for PBXNativeTarget "DateDisplay" */;
+			buildPhases = (
+				B6C9D23F1AABA23E003AD39B /* Sources */,
+				B6C9D2401AABA23E003AD39B /* Frameworks */,
+				B6C9D2411AABA23E003AD39B /* Resources */,
+				B6C9D28B1AABA253003AD39B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6C9D2831AABA253003AD39B /* PBXTargetDependency */,
+			);
+			name = DateDisplay;
+			productName = DateDisplay;
+			productReference = B6C9D2431AABA23E003AD39B /* DateDisplay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6C9D2571AABA23E003AD39B /* DateDisplayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6C9D2651AABA23E003AD39B /* Build configuration list for PBXNativeTarget "DateDisplayTests" */;
+			buildPhases = (
+				B6C9D2541AABA23E003AD39B /* Sources */,
+				B6C9D2551AABA23E003AD39B /* Frameworks */,
+				B6C9D2561AABA23E003AD39B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6C9D25A1AABA23E003AD39B /* PBXTargetDependency */,
+			);
+			name = DateDisplayTests;
+			productName = DateDisplayTests;
+			productReference = B6C9D2581AABA23E003AD39B /* DateDisplayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6C9D26B1AABA253003AD39B /* DateDisplay WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6C9D2881AABA253003AD39B /* Build configuration list for PBXNativeTarget "DateDisplay WatchKit Extension" */;
+			buildPhases = (
+				B6C9D2681AABA253003AD39B /* Sources */,
+				B6C9D2691AABA253003AD39B /* Frameworks */,
+				B6C9D26A1AABA253003AD39B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6C9D2791AABA253003AD39B /* PBXTargetDependency */,
+			);
+			name = "DateDisplay WatchKit Extension";
+			productName = "DateDisplay WatchKit Extension";
+			productReference = B6C9D26C1AABA253003AD39B /* DateDisplay WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		B6C9D2751AABA253003AD39B /* DateDisplay WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6C9D2851AABA253003AD39B /* Build configuration list for PBXNativeTarget "DateDisplay WatchKit App" */;
+			buildPhases = (
+				B6C9D2741AABA253003AD39B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DateDisplay WatchKit App";
+			productName = "DateDisplay WatchKit App";
+			productReference = B6C9D2761AABA253003AD39B /* DateDisplay WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6C9D23B1AABA23E003AD39B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Apress;
+				TargetAttributes = {
+					B6C9D2421AABA23E003AD39B = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B6C9D2571AABA23E003AD39B = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = B6C9D2421AABA23E003AD39B;
+					};
+					B6C9D26B1AABA253003AD39B = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B6C9D2751AABA253003AD39B = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = B6C9D23E1AABA23E003AD39B /* Build configuration list for PBXProject "DateDisplay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6C9D23A1AABA23E003AD39B;
+			productRefGroup = B6C9D2441AABA23E003AD39B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6C9D2421AABA23E003AD39B /* DateDisplay */,
+				B6C9D2571AABA23E003AD39B /* DateDisplayTests */,
+				B6C9D26B1AABA253003AD39B /* DateDisplay WatchKit Extension */,
+				B6C9D2751AABA253003AD39B /* DateDisplay WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6C9D2411AABA23E003AD39B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C9D24E1AABA23E003AD39B /* Main.storyboard in Resources */,
+				B6C9D2531AABA23E003AD39B /* LaunchScreen.xib in Resources */,
+				B6C9D2501AABA23E003AD39B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C9D2561AABA23E003AD39B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C9D26A1AABA253003AD39B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C9D2731AABA253003AD39B /* Images.xcassets in Resources */,
+				B6C9D2771AABA253003AD39B /* DateDisplay WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C9D2741AABA253003AD39B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C9D27F1AABA253003AD39B /* Interface.storyboard in Resources */,
+				B6C9D2811AABA253003AD39B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6C9D23F1AABA23E003AD39B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C9D24B1AABA23E003AD39B /* ViewController.swift in Sources */,
+				B6C9D2491AABA23E003AD39B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C9D2541AABA23E003AD39B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C9D25F1AABA23E003AD39B /* DateDisplayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C9D2681AABA253003AD39B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C9D2711AABA253003AD39B /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6C9D25A1AABA23E003AD39B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6C9D2421AABA23E003AD39B /* DateDisplay */;
+			targetProxy = B6C9D2591AABA23E003AD39B /* PBXContainerItemProxy */;
+		};
+		B6C9D2791AABA253003AD39B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6C9D2751AABA253003AD39B /* DateDisplay WatchKit App */;
+			targetProxy = B6C9D2781AABA253003AD39B /* PBXContainerItemProxy */;
+		};
+		B6C9D2831AABA253003AD39B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6C9D26B1AABA253003AD39B /* DateDisplay WatchKit Extension */;
+			targetProxy = B6C9D2821AABA253003AD39B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6C9D24C1AABA23E003AD39B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6C9D24D1AABA23E003AD39B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6C9D2511AABA23E003AD39B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6C9D2521AABA23E003AD39B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		B6C9D27D1AABA253003AD39B /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6C9D27E1AABA253003AD39B /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6C9D2601AABA23E003AD39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6C9D2611AABA23E003AD39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6C9D2631AABA23E003AD39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = DateDisplay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6C9D2641AABA23E003AD39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = DateDisplay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B6C9D2661AABA23E003AD39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DateDisplayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DateDisplay.app/DateDisplay";
+			};
+			name = Debug;
+		};
+		B6C9D2671AABA23E003AD39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DateDisplayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DateDisplay.app/DateDisplay";
+			};
+			name = Release;
+		};
+		B6C9D2861AABA253003AD39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = DateDisplay_WatchKit_Extension;
+				INFOPLIST_FILE = "DateDisplay WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		B6C9D2871AABA253003AD39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = DateDisplay_WatchKit_Extension;
+				INFOPLIST_FILE = "DateDisplay WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		B6C9D2891AABA253003AD39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DateDisplay WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B6C9D28A1AABA253003AD39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "DateDisplay WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6C9D23E1AABA23E003AD39B /* Build configuration list for PBXProject "DateDisplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C9D2601AABA23E003AD39B /* Debug */,
+				B6C9D2611AABA23E003AD39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6C9D2621AABA23E003AD39B /* Build configuration list for PBXNativeTarget "DateDisplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C9D2631AABA23E003AD39B /* Debug */,
+				B6C9D2641AABA23E003AD39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B6C9D2651AABA23E003AD39B /* Build configuration list for PBXNativeTarget "DateDisplayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C9D2661AABA23E003AD39B /* Debug */,
+				B6C9D2671AABA23E003AD39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B6C9D2851AABA253003AD39B /* Build configuration list for PBXNativeTarget "DateDisplay WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C9D2861AABA253003AD39B /* Debug */,
+				B6C9D2871AABA253003AD39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B6C9D2881AABA253003AD39B /* Build configuration list for PBXNativeTarget "DateDisplay WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C9D2891AABA253003AD39B /* Debug */,
+				B6C9D28A1AABA253003AD39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6C9D23B1AABA23E003AD39B /* Project object */;
+}

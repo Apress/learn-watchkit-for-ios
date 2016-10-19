@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6ABD7951AB9016500FB0621 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ABD7941AB9016500FB0621 /* AppDelegate.swift */; };
+		B6ABD7971AB9016500FB0621 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ABD7961AB9016500FB0621 /* ViewController.swift */; };
+		B6ABD79A1AB9016500FB0621 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6ABD7981AB9016500FB0621 /* Main.storyboard */; };
+		B6ABD79C1AB9016500FB0621 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6ABD79B1AB9016500FB0621 /* Images.xcassets */; };
+		B6ABD79F1AB9016500FB0621 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6ABD79D1AB9016500FB0621 /* LaunchScreen.xib */; };
+		B6ABD7AB1AB9016500FB0621 /* HierarchicalNavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ABD7AA1AB9016500FB0621 /* HierarchicalNavigationTests.swift */; };
+		B6ABD7BD1AB9017100FB0621 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ABD7BC1AB9017100FB0621 /* InterfaceController.swift */; };
+		B6ABD7BF1AB9017100FB0621 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6ABD7BE1AB9017100FB0621 /* Images.xcassets */; };
+		B6ABD7C31AB9017100FB0621 /* HierarchicalNavigation WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = B6ABD7C21AB9017100FB0621 /* HierarchicalNavigation WatchKit App.app */; };
+		B6ABD7CB1AB9017100FB0621 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6ABD7C91AB9017100FB0621 /* Interface.storyboard */; };
+		B6ABD7CD1AB9017100FB0621 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6ABD7CC1AB9017100FB0621 /* Images.xcassets */; };
+		B6ABD7D01AB9017100FB0621 /* HierarchicalNavigation WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B6ABD7B81AB9017100FB0621 /* HierarchicalNavigation WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B6ABD7D91AB905A000FB0621 /* ImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ABD7D81AB905A000FB0621 /* ImageController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6ABD7A51AB9016500FB0621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6ABD7871AB9016500FB0621 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6ABD78E1AB9016500FB0621;
+			remoteInfo = HierarchicalNavigation;
+		};
+		B6ABD7C41AB9017100FB0621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6ABD7871AB9016500FB0621 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6ABD7C11AB9017100FB0621;
+			remoteInfo = "HierarchicalNavigation WatchKit App";
+		};
+		B6ABD7CE1AB9017100FB0621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6ABD7871AB9016500FB0621 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6ABD7B71AB9017100FB0621;
+			remoteInfo = "HierarchicalNavigation WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B6ABD7D71AB9017100FB0621 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B6ABD7D01AB9017100FB0621 /* HierarchicalNavigation WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B6ABD78F1AB9016500FB0621 /* HierarchicalNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HierarchicalNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6ABD7931AB9016500FB0621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6ABD7941AB9016500FB0621 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6ABD7961AB9016500FB0621 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6ABD7991AB9016500FB0621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6ABD79B1AB9016500FB0621 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B6ABD79E1AB9016500FB0621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B6ABD7A41AB9016500FB0621 /* HierarchicalNavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HierarchicalNavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6ABD7A91AB9016500FB0621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6ABD7AA1AB9016500FB0621 /* HierarchicalNavigationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HierarchicalNavigationTests.swift; sourceTree = "<group>"; };
+		B6ABD7B81AB9017100FB0621 /* HierarchicalNavigation WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HierarchicalNavigation WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6ABD7BB1AB9017100FB0621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6ABD7BC1AB9017100FB0621 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		B6ABD7BE1AB9017100FB0621 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B6ABD7C21AB9017100FB0621 /* HierarchicalNavigation WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HierarchicalNavigation WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6ABD7C81AB9017100FB0621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6ABD7CA1AB9017100FB0621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		B6ABD7CC1AB9017100FB0621 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B6ABD7D81AB905A000FB0621 /* ImageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6ABD78C1AB9016500FB0621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6ABD7A11AB9016500FB0621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6ABD7B51AB9017100FB0621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6ABD7861AB9016500FB0621 = {
+			isa = PBXGroup;
+			children = (
+				B6ABD7911AB9016500FB0621 /* HierarchicalNavigation */,
+				B6ABD7A71AB9016500FB0621 /* HierarchicalNavigationTests */,
+				B6ABD7B91AB9017100FB0621 /* HierarchicalNavigation WatchKit Extension */,
+				B6ABD7C61AB9017100FB0621 /* HierarchicalNavigation WatchKit App */,
+				B6ABD7901AB9016500FB0621 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6ABD7901AB9016500FB0621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6ABD78F1AB9016500FB0621 /* HierarchicalNavigation.app */,
+				B6ABD7A41AB9016500FB0621 /* HierarchicalNavigationTests.xctest */,
+				B6ABD7B81AB9017100FB0621 /* HierarchicalNavigation WatchKit Extension.appex */,
+				B6ABD7C21AB9017100FB0621 /* HierarchicalNavigation WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6ABD7911AB9016500FB0621 /* HierarchicalNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				B6ABD7941AB9016500FB0621 /* AppDelegate.swift */,
+				B6ABD7961AB9016500FB0621 /* ViewController.swift */,
+				B6ABD7981AB9016500FB0621 /* Main.storyboard */,
+				B6ABD79B1AB9016500FB0621 /* Images.xcassets */,
+				B6ABD79D1AB9016500FB0621 /* LaunchScreen.xib */,
+				B6ABD7921AB9016500FB0621 /* Supporting Files */,
+			);
+			path = HierarchicalNavigation;
+			sourceTree = "<group>";
+		};
+		B6ABD7921AB9016500FB0621 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6ABD7931AB9016500FB0621 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6ABD7A71AB9016500FB0621 /* HierarchicalNavigationTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6ABD7AA1AB9016500FB0621 /* HierarchicalNavigationTests.swift */,
+				B6ABD7A81AB9016500FB0621 /* Supporting Files */,
+			);
+			path = HierarchicalNavigationTests;
+			sourceTree = "<group>";
+		};
+		B6ABD7A81AB9016500FB0621 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6ABD7A91AB9016500FB0621 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6ABD7B91AB9017100FB0621 /* HierarchicalNavigation WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B6ABD7BC1AB9017100FB0621 /* InterfaceController.swift */,
+				B6ABD7D81AB905A000FB0621 /* ImageController.swift */,
+				B6ABD7BE1AB9017100FB0621 /* Images.xcassets */,
+				B6ABD7BA1AB9017100FB0621 /* Supporting Files */,
+			);
+			path = "HierarchicalNavigation WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		B6ABD7BA1AB9017100FB0621 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6ABD7BB1AB9017100FB0621 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6ABD7C61AB9017100FB0621 /* HierarchicalNavigation WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				B6ABD7C91AB9017100FB0621 /* Interface.storyboard */,
+				B6ABD7CC1AB9017100FB0621 /* Images.xcassets */,
+				B6ABD7C71AB9017100FB0621 /* Supporting Files */,
+			);
+			path = "HierarchicalNavigation WatchKit App";
+			sourceTree = "<group>";
+		};
+		B6ABD7C71AB9017100FB0621 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6ABD7C81AB9017100FB0621 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6ABD78E1AB9016500FB0621 /* HierarchicalNavigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6ABD7AE1AB9016500FB0621 /* Build configuration list for PBXNativeTarget "HierarchicalNavigation" */;
+			buildPhases = (
+				B6ABD78B1AB9016500FB0621 /* Sources */,
+				B6ABD78C1AB9016500FB0621 /* Frameworks */,
+				B6ABD78D1AB9016500FB0621 /* Resources */,
+				B6ABD7D71AB9017100FB0621 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6ABD7CF1AB9017100FB0621 /* PBXTargetDependency */,
+			);
+			name = HierarchicalNavigation;
+			productName = HierarchicalNavigation;
+			productReference = B6ABD78F1AB9016500FB0621 /* HierarchicalNavigation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6ABD7A31AB9016500FB0621 /* HierarchicalNavigationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6ABD7B11AB9016500FB0621 /* Build configuration list for PBXNativeTarget "HierarchicalNavigationTests" */;
+			buildPhases = (
+				B6ABD7A01AB9016500FB0621 /* Sources */,
+				B6ABD7A11AB9016500FB0621 /* Frameworks */,
+				B6ABD7A21AB9016500FB0621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6ABD7A61AB9016500FB0621 /* PBXTargetDependency */,
+			);
+			name = HierarchicalNavigationTests;
+			productName = HierarchicalNavigationTests;
+			productReference = B6ABD7A41AB9016500FB0621 /* HierarchicalNavigationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6ABD7B71AB9017100FB0621 /* HierarchicalNavigation WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6ABD7D41AB9017100FB0621 /* Build configuration list for PBXNativeTarget "HierarchicalNavigation WatchKit Extension" */;
+			buildPhases = (
+				B6ABD7B41AB9017100FB0621 /* Sources */,
+				B6ABD7B51AB9017100FB0621 /* Frameworks */,
+				B6ABD7B61AB9017100FB0621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6ABD7C51AB9017100FB0621 /* PBXTargetDependency */,
+			);
+			name = "HierarchicalNavigation WatchKit Extension";
+			productName = "HierarchicalNavigation WatchKit Extension";
+			productReference = B6ABD7B81AB9017100FB0621 /* HierarchicalNavigation WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		B6ABD7C11AB9017100FB0621 /* HierarchicalNavigation WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6ABD7D11AB9017100FB0621 /* Build configuration list for PBXNativeTarget "HierarchicalNavigation WatchKit App" */;
+			buildPhases = (
+				B6ABD7C01AB9017100FB0621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HierarchicalNavigation WatchKit App";
+			productName = "HierarchicalNavigation WatchKit App";
+			productReference = B6ABD7C21AB9017100FB0621 /* HierarchicalNavigation WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6ABD7871AB9016500FB0621 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Apress;
+				TargetAttributes = {
+					B6ABD78E1AB9016500FB0621 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B6ABD7A31AB9016500FB0621 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = B6ABD78E1AB9016500FB0621;
+					};
+					B6ABD7B71AB9017100FB0621 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B6ABD7C11AB9017100FB0621 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = B6ABD78A1AB9016500FB0621 /* Build configuration list for PBXProject "HierarchicalNavigation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6ABD7861AB9016500FB0621;
+			productRefGroup = B6ABD7901AB9016500FB0621 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6ABD78E1AB9016500FB0621 /* HierarchicalNavigation */,
+				B6ABD7A31AB9016500FB0621 /* HierarchicalNavigationTests */,
+				B6ABD7B71AB9017100FB0621 /* HierarchicalNavigation WatchKit Extension */,
+				B6ABD7C11AB9017100FB0621 /* HierarchicalNavigation WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6ABD78D1AB9016500FB0621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6ABD79A1AB9016500FB0621 /* Main.storyboard in Resources */,
+				B6ABD79F1AB9016500FB0621 /* LaunchScreen.xib in Resources */,
+				B6ABD79C1AB9016500FB0621 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6ABD7A21AB9016500FB0621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6ABD7B61AB9017100FB0621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6ABD7BF1AB9017100FB0621 /* Images.xcassets in Resources */,
+				B6ABD7C31AB9017100FB0621 /* HierarchicalNavigation WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6ABD7C01AB9017100FB0621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6ABD7CB1AB9017100FB0621 /* Interface.storyboard in Resources */,
+				B6ABD7CD1AB9017100FB0621 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6ABD78B1AB9016500FB0621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6ABD7971AB9016500FB0621 /* ViewController.swift in Sources */,
+				B6ABD7951AB9016500FB0621 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6ABD7A01AB9016500FB0621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6ABD7AB1AB9016500FB0621 /* HierarchicalNavigationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6ABD7B41AB9017100FB0621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6ABD7BD1AB9017100FB0621 /* InterfaceController.swift in Sources */,
+				B6ABD7D91AB905A000FB0621 /* ImageController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6ABD7A61AB9016500FB0621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6ABD78E1AB9016500FB0621 /* HierarchicalNavigation */;
+			targetProxy = B6ABD7A51AB9016500FB0621 /* PBXContainerItemProxy */;
+		};
+		B6ABD7C51AB9017100FB0621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6ABD7C11AB9017100FB0621 /* HierarchicalNavigation WatchKit App */;
+			targetProxy = B6ABD7C41AB9017100FB0621 /* PBXContainerItemProxy */;
+		};
+		B6ABD7CF1AB9017100FB0621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6ABD7B71AB9017100FB0621 /* HierarchicalNavigation WatchKit Extension */;
+			targetProxy = B6ABD7CE1AB9017100FB0621 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6ABD7981AB9016500FB0621 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6ABD7991AB9016500FB0621 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6ABD79D1AB9016500FB0621 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6ABD79E1AB9016500FB0621 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		B6ABD7C91AB9017100FB0621 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6ABD7CA1AB9017100FB0621 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6ABD7AC1AB9016500FB0621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6ABD7AD1AB9016500FB0621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6ABD7AF1AB9016500FB0621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = HierarchicalNavigation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6ABD7B01AB9016500FB0621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = HierarchicalNavigation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B6ABD7B21AB9016500FB0621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HierarchicalNavigationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HierarchicalNavigation.app/HierarchicalNavigation";
+			};
+			name = Debug;
+		};
+		B6ABD7B31AB9016500FB0621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HierarchicalNavigationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HierarchicalNavigation.app/HierarchicalNavigation";
+			};
+			name = Release;
+		};
+		B6ABD7D21AB9017100FB0621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = HierarchicalNavigation_WatchKit_Extension;
+				INFOPLIST_FILE = "HierarchicalNavigation WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		B6ABD7D31AB9017100FB0621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = HierarchicalNavigation_WatchKit_Extension;
+				INFOPLIST_FILE = "HierarchicalNavigation WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		B6ABD7D51AB9017100FB0621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HierarchicalNavigation WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B6ABD7D61AB9017100FB0621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "HierarchicalNavigation WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6ABD78A1AB9016500FB0621 /* Build configuration list for PBXProject "HierarchicalNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6ABD7AC1AB9016500FB0621 /* Debug */,
+				B6ABD7AD1AB9016500FB0621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6ABD7AE1AB9016500FB0621 /* Build configuration list for PBXNativeTarget "HierarchicalNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6ABD7AF1AB9016500FB0621 /* Debug */,
+				B6ABD7B01AB9016500FB0621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6ABD7B11AB9016500FB0621 /* Build configuration list for PBXNativeTarget "HierarchicalNavigationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6ABD7B21AB9016500FB0621 /* Debug */,
+				B6ABD7B31AB9016500FB0621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6ABD7D11AB9017100FB0621 /* Build configuration list for PBXNativeTarget "HierarchicalNavigation WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6ABD7D21AB9017100FB0621 /* Debug */,
+				B6ABD7D31AB9017100FB0621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6ABD7D41AB9017100FB0621 /* Build configuration list for PBXNativeTarget "HierarchicalNavigation WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6ABD7D51AB9017100FB0621 /* Debug */,
+				B6ABD7D61AB9017100FB0621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6ABD7871AB9016500FB0621 /* Project object */;
+}

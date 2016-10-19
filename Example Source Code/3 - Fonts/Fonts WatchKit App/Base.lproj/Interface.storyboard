@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Tangerine_Bold.ttf">
+            <string>Tangerine-Bold</string>
+        </mutableArray>
+        <mutableArray key="Tangerine_Regular.ttf">
+            <string>Tangerine</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Fonts_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="1" alignment="left" text="Tangerine Bold" textAlignment="center" id="j0B-fE-wHB">
+                            <fontDescription key="font" name="Tangerine-Bold" family="Tangerine" pointSize="20"/>
+                        </label>
+                        <label width="1" alignment="left" text="Tangerine Regular" textAlignment="center" id="2An-Tu-Z1A">
+                            <fontDescription key="font" name="Tangerine" family="Tangerine" pointSize="20"/>
+                        </label>
+                        <label width="1" alignment="left" text="Thin" textAlignment="center" id="pse-Sk-btr">
+                            <fontDescription key="font" type="system" weight="thin" pointSize="16"/>
+                        </label>
+                        <label width="1" alignment="left" text="Italic, Bold, 12" textAlignment="center" id="4BH-9e-iJD">
+                            <fontDescription key="font" type="italicSystem" weight="bold" pointSize="12"/>
+                        </label>
+                        <label width="1" alignment="left" text="Italic, Medium, 20" textAlignment="center" id="wYb-sS-Byd">
+                            <fontDescription key="font" type="italicSystem" weight="medium" pointSize="20"/>
+                            <variation key="device=watch42mm" text="Italic Medium 20"/>
+                        </label>
+                        <label width="1" alignment="left" text="Footnote" textAlignment="center" id="dQL-3u-ibc">
+                            <fontDescription key="font" type="italicSystem" weight="ultraLight" pointSize="15"/>
+                            <variation key="device=watch42mm" text="Italic Ultra-Light 15"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="label1" destination="j0B-fE-wHB" id="heB-x6-Whu"/>
+                        <outlet property="label2" destination="2An-Tu-Z1A" id="Ons-lC-lew"/>
+                        <outlet property="label3" destination="pse-Sk-btr" id="5Pm-l7-5YF"/>
+                        <outlet property="label4" destination="4BH-9e-iJD" id="5Z5-5W-cS3"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>
